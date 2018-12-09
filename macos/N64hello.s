@@ -1,3 +1,4 @@
+; NASM 64 bit test project
 global start
 section .text
 start:

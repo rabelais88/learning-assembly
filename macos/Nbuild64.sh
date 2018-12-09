@@ -1,4 +1,4 @@
-echo "building NASM source from MacOS 2018"
+echo "building NASM 64bit source from MacOS 2018"
 if [ $# -eq 0 ] || [ -z "$1" ]; then
     echo "need file name as argument"
 fi
