@@ -1,4 +1,4 @@
-; NASM 32 bit for linux
+; first program for NASM on Linux(ubuntu)
 
 SECTION .data
 num: dd 80
@@ -13,6 +13,6 @@ _main:
   add eax, 20
   mov DWORD [sum], eax
 
-  mov eax, 1
-  mov ebx, 0
-  int 80h
+mov eax, 1
+mov ebx, 0
+int 80h

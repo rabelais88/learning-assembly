@@ -1,0 +1,1 @@
+nasm -f elf32 -o $1.o -l $1.lst $1.s
